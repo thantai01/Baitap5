@@ -1,0 +1,28 @@
+#tieude1{
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+
+td th{
+    color: red;
+    margin-left: 50%;
+    border-collapse: collapse;
+    border: black;
+}
+button{
+    text-align: center;
+    margin-left: 50%;
+}
+
+table{
+    background-color: lightgray;
+    width: 100%;
+    border: 1px solid #000;
+    border-collapse: separate;
+}
+
+p{
+    color: blue;
+}
+
