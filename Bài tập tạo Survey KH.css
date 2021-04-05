@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+*
+html
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Open Sans";
+}
+#bangchon1{
+    border: 1px solid #000
+;
+
+}
+p{
+    font-weight: 900;
+}
+
+.dola {
+    position: absolute;
+    left: 23px;
+}
+
+tbody {
+    text-align: left;
+}
+
+#bangchon1 th, td
+{
+    border:0.1px solid #ddd;
+
+}
+#bangchon1 td{
+    text-align: center;
+}
+
+#first-row{
+    text-align: center;
+}
+
+#first-row,#third-row{
+    background-color:darkgray;
+}
+.box-equal{
+    width: 15%;
+}
