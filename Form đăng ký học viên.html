@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+  <link rel="stylesheet" href="Form đăng ký học viên.css">
+</head>
+<body>
+    <form action="" method="get">
+      <table>
+        <td colspan="3" id="title_dk"><p>ĐĂNG KÝ HỌC VIÊN</p></td>
+        <tr>
+          <th> Họ và tên</th>
+          <td><input type="text" name="uname"></td>
+        </tr>
+        <tr>
+          <th> Ngày sinh</th>
+          <td><input type="date" name="dob"></td>
+        </tr>
+        <tr>
+          <th> Giới tính</th>
+          <td><input type="radio" name="gender" value="male">Nam
+          <input type="radio" name="gender" value="female">Nữ</td>
+        </tr>
+        <tr>
+          <th> Địa chỉ</th>
+          <td><input type="text" name="add"></td>
+        </tr>
+        <tr>
+          <th> Lớp</th>
+          <td><select name="class">
+                <option>Java</option>
+                <option>PHP</option>
+              </select>
+          </td>
+        </tr>
+        <tr>
+          <th>Email</th>
+          <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+          <th> Điện thoại</th>
+          <td><input type="text" name="phonenumb"></td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><input type="submit" name="accept" value="Đăng ký"> <input type="reset" name="reject" value="Nhập lại"></td>
+        </tr>
+      </table>
+    </form>
+</body>
+</html>
